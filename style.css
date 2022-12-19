@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+.baza{
+    display: grid;
+    grid-template-rows: 940px 600px 630px;
+}
+.mainobj:nth-child(1){
+    background-image: url(https://takprosto.cc/wp-content/uploads/h/holostyackaya-zhizn/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100px;
+}
+.mainobj:nth-child(2){
+    margin: auto;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 25px;
+}
+.nemainobj1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.nemainobj1:nth-child(1){
+    background-image: url(https://антиплагиат-вуз.рф/wp-content/uploads/2021/11/kak-sovmestit-rabotu-i-uchebu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nemainobj1:nth-child(2){
+    background-image: url(https://all-aforizmy.ru/wp-content/uploads/2022/01/gruppovaya-rabota-sotrudnichestvo-instrumenty-ofis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nemainobj1:nth-child(3){
+    background-image: url(https://news1.ru/wp-content/uploads/2022/04/computer11121.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainobj:nth-child(3){
+    background-color: #222;
+    display: grid;
+    grid-template-columns: 75px 300px 75px 300px;
+    grid-template-rows: 300px 300px;
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+.nemainobj2{
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+.krug{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 66px;
+    width: 66px;
+    border: 5px solid white;
+    border-radius: 35px;
+    font-size: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.nemainobj2:nth-child(even){
+    padding: 20px;
+}
+    
+
